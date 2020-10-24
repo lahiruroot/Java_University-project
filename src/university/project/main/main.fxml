@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="702.0" prefWidth="1275.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="university.project.main.MainController">
+   <children>
+      <TabPane layoutY="-7.0" prefHeight="723.0" prefWidth="1282.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Student Registration">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <JFXTextField labelFloat="true" layoutX="76.0" layoutY="119.0" prefHeight="30.0" prefWidth="260.0" promptText="First Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="511.0" layoutY="119.0" prefHeight="30.0" prefWidth="260.0" promptText="Last Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="74.0" layoutY="200.0" prefHeight="30.0" prefWidth="265.0" promptText="Age">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="74.0" layoutY="281.0" prefHeight="30.0" prefWidth="265.0" promptText="Phone Nuber">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXDatePicker defaultColor="#11b7ff" editable="false" layoutX="515.0" layoutY="205.0" prefHeight="27.0" prefWidth="259.0" promptText="BirthDay" />
+                        <JFXRadioButton layoutX="868.0" layoutY="127.0" prefHeight="21.0" prefWidth="74.0" text="Male">
+                           <font>
+                              <Font size="18.0" />
+                           </font></JFXRadioButton>
+                        <JFXRadioButton layoutX="866.0" layoutY="173.0" prefHeight="27.0" prefWidth="102.0" text="Female">
+                           <font>
+                              <Font size="18.0" />
+                           </font></JFXRadioButton>
+                        <JFXTextField labelFloat="true" layoutX="511.0" layoutY="281.0" prefHeight="30.0" prefWidth="265.0" promptText="Email Adress">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="868.0" layoutY="281.0" prefHeight="30.0" prefWidth="265.0" promptText="Home Adress">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXComboBox layoutX="76.0" layoutY="392.0" prefHeight="27.0" prefWidth="274.0" promptText="Faculty" />
+                        <JFXComboBox labelFloat="true" layoutX="514.0" layoutY="392.0" prefHeight="27.0" prefWidth="274.0" promptText="Digry" />
+                        <JFXComboBox labelFloat="true" layoutX="868.0" layoutY="392.0" prefHeight="27.0" prefWidth="274.0" promptText="Study Year" />
+                        <JFXDatePicker defaultColor="#11b7ff" editable="false" layoutX="514.0" layoutY="486.0" prefHeight="27.0" prefWidth="261.0" promptText="Join Date" />
+                        <JFXTextField labelFloat="true" layoutX="871.0" layoutY="477.0" prefHeight="30.0" prefWidth="260.0" promptText="Student ID">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXButton buttonType="RAISED" layoutX="1048.0" layoutY="577.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Submit" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="655.0" layoutY="577.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Clear" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXTextField labelFloat="true" layoutX="74.0" layoutY="482.0" prefHeight="30.0" prefWidth="265.0" promptText="Course Fee">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXButton buttonType="RAISED" layoutX="917.0" layoutY="577.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Edit" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="788.0" layoutY="577.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Delete" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="111.0" layoutY="532.0" prefHeight="39.0" prefWidth="172.0" style="-fx-background-color: #006666;" text="Get course details" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Exam details">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: FFFFFF;">
+                     <children>
+                        <JFXTextField labelFloat="true" layoutX="39.0" layoutY="36.0" prefHeight="30.0" prefWidth="260.0" promptText="Student ID">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="465.0" layoutY="36.0" prefHeight="30.0" prefWidth="260.0" promptText="Student Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXComboBox labelFloat="true" layoutX="465.0" layoutY="113.0" prefHeight="27.0" prefWidth="274.0" promptText="Study Year" />
+                        <JFXComboBox labelFloat="true" layoutX="862.0" layoutY="113.0" prefHeight="27.0" prefWidth="274.0" promptText="Semester" />
+                        <JFXComboBox labelFloat="true" layoutX="39.0" layoutY="106.0" prefHeight="27.0" prefWidth="274.0" promptText="Digry Programme" />
+                        <JFXTextField labelFloat="true" layoutX="46.0" layoutY="213.0" prefHeight="30.0" prefWidth="260.0" promptText="Subject 01">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="46.0" layoutY="291.0" prefHeight="30.0" prefWidth="260.0" promptText="Subject 02">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="46.0" layoutY="365.0" prefHeight="30.0" prefWidth="260.0" promptText="Subject 03">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="46.0" layoutY="439.0" prefHeight="30.0" prefWidth="260.0" promptText="Subject 04">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="472.0" layoutY="213.0" prefHeight="30.0" prefWidth="260.0" promptText="Marks">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="472.0" layoutY="291.0" prefHeight="30.0" prefWidth="260.0" promptText="Marks">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="472.0" layoutY="365.0" prefHeight="30.0" prefWidth="260.0" promptText="Marks">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="472.0" layoutY="439.0" prefHeight="30.0" prefWidth="260.0" promptText="Marks">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXDatePicker defaultColor="#11b7ff" editable="false" layoutX="870.0" layoutY="40.0" prefHeight="27.0" prefWidth="259.0" promptText="Date" />
+                        <JFXComboBox labelFloat="true" layoutX="862.0" layoutY="217.0" prefHeight="27.0" prefWidth="274.0" promptText="Grade" />
+                        <JFXComboBox labelFloat="true" layoutX="862.0" layoutY="299.0" prefHeight="27.0" prefWidth="274.0" promptText="Grade" />
+                        <JFXComboBox labelFloat="true" layoutX="862.0" layoutY="373.0" prefHeight="27.0" prefWidth="274.0" promptText="Grade" />
+                        <JFXComboBox labelFloat="true" layoutX="862.0" layoutY="447.0" prefHeight="27.0" prefWidth="274.0" promptText="Grade" />
+                        <JFXButton buttonType="RAISED" layoutX="1040.0" layoutY="592.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Submit" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="602.0" layoutY="592.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Clear" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="894.0" layoutY="592.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Edit" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="749.0" layoutY="592.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Delete" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Payment Details">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: FFFFFF;">
+                     <children>
+                        <JFXTextField labelFloat="true" layoutX="92.0" layoutY="167.0" prefHeight="30.0" prefWidth="260.0" promptText="Student ID">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="468.0" layoutY="167.0" prefHeight="30.0" prefWidth="260.0" promptText="Student Name">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXDatePicker defaultColor="#11b7ff" editable="false" layoutX="826.0" layoutY="172.0" prefHeight="27.0" prefWidth="259.0" promptText="Date" />
+                        <JFXComboBox labelFloat="true" layoutX="92.0" layoutY="261.0" prefHeight="27.0" prefWidth="274.0" promptText="Digry Programme" />
+                        <JFXComboBox labelFloat="true" layoutX="468.0" layoutY="261.0" prefHeight="27.0" prefWidth="274.0" promptText="Study Year" />
+                        <JFXComboBox labelFloat="true" layoutX="826.0" layoutY="261.0" prefHeight="27.0" prefWidth="274.0" promptText="Semester" />
+                        <JFXTextField labelFloat="true" layoutX="92.0" layoutY="349.0" prefHeight="30.0" prefWidth="260.0" promptText="Course Fee">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="475.0" layoutY="349.0" prefHeight="30.0" prefWidth="260.0" promptText="Amount">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXTextField labelFloat="true" layoutX="826.0" layoutY="349.0" prefHeight="30.0" prefWidth="260.0" promptText="Balence">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXButton buttonType="RAISED" layoutX="1100.0" layoutY="589.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Submit" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="682.0" layoutY="589.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Clear" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="352.0" layoutY="153.0" prefHeight="39.0" prefWidth="95.0" style="-fx-background-color: #006666;" text="Search" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="965.0" layoutY="589.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Submit" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton buttonType="RAISED" layoutX="826.0" layoutY="589.0" prefHeight="39.0" prefWidth="119.0" style="-fx-background-color: #006666;" text="Search" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXTextField labelFloat="true" layoutX="92.0" layoutY="48.0" prefHeight="30.0" prefWidth="260.0" promptText="Resipt No">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </JFXTextField>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Mange data">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: FFFFFF;">
+                     <children>
+                        <TabPane layoutX="-1.0" layoutY="-2.0" prefHeight="690.0" prefWidth="1282.0" tabClosingPolicy="UNAVAILABLE">
+                          <tabs>
+                            <Tab text="Exam Details">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <JFXTextField labelFloat="true" layoutX="34.0" layoutY="24.0" prefHeight="31.0" prefWidth="287.0" promptText="Enter Student ID">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </JFXTextField>
+                                          <JFXButton buttonType="RAISED" layoutX="341.0" layoutY="23.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Search" textFill="WHITE">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab text="Payment Details">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="293.0" prefWidth="618.0">
+                                       <children>
+                                          <JFXTextField labelFloat="true" layoutX="34.0" layoutY="24.0" prefHeight="31.0" prefWidth="287.0" promptText="Enter Student ID">
+                                             <font>
+                                                <Font name="System Bold" size="16.0" />
+                                             </font>
+                                          </JFXTextField>
+                                          <JFXButton buttonType="RAISED" layoutX="341.0" layoutY="23.0" prefHeight="34.0" prefWidth="121.0" style="-fx-background-color: #006666;" text="Search" textFill="WHITE">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                          </tabs>
+                        </TabPane>
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="View Personal Records">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: FFFFFF;">
+                     <children>
+                        <JFXTextField labelFloat="true" layoutX="44.0" layoutY="40.0" prefHeight="31.0" prefWidth="287.0" promptText="Enter Student ID">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </JFXTextField>
+                        <JFXButton layoutX="371.0" layoutY="43.0" prefHeight="31.0" prefWidth="118.0" style="-fx-background-color: #006666;" text="Search" textFill="WHITE" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

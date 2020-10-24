@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="576.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="university.admin.AdminController">
+   <children>
+      <Pane prefHeight="576.0" prefWidth="487.0" style="-fx-background-color: #003366;">
+         <children>
+            <Label layoutX="41.0" layoutY="152.0" prefHeight="79.0" prefWidth="405.0" text="NSBM  Green University" textFill="WHITE">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Label>
+            <Label layoutX="113.0" layoutY="238.0" prefHeight="72.0" prefWidth="261.0" text="Main Controller" textFill="WHITE">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <GridPane layoutX="508.0" layoutY="126.0" prefHeight="324.0" prefWidth="425.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <JFXButton buttonType="RAISED" prefHeight="98.0" prefWidth="203.0" ripplerFill="#0bceff" style="-fx-background-color: #009999;" text="Students" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" prefHeight="101.0" prefWidth="203.0" ripplerFill="#fff600" style="-fx-background-color: #0080FF;" text="Module" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" prefHeight="101.0" prefWidth="204.0" ripplerFill="#fff200" style="-fx-background-color: #0080FF;" text="Lecture Timetable" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" prefHeight="101.0" prefWidth="201.0" style="-fx-background-color: #000099;" text="Hall Resevertion" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" prefHeight="98.0" prefWidth="203.0" ripplerFill="#0bceff" style="-fx-background-color: #009999;" text="Lectures" textFill="WHITE" GridPane.columnIndex="1">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" prefHeight="101.0" prefWidth="202.0" style="-fx-background-color: #000099;" text="Logout" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
